@@ -53,7 +53,7 @@ const app = Vue.createApp({
         },
         isLoggeds(who,what,value){
             console.log("islogged ....")
-            this.loggeds.unshift = ({
+            this.loggeds.unshift({
                 actionBy: who,
                 actionPower: value,
                 actionWhat : what
